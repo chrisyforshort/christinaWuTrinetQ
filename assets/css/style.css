@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "myfont";
+    src: url("./fighting_spirit_tbs/Fighting Spirit 2.ttf");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 225px;
+    margin-top: 150px;
+}
+
+#title {
+    text-align: center;
+    font-size: 80px;
+}
+
+table {
+    border-spacing: 0px;
+    text-align: center;
+    margin: 1em auto;
+    font-size: 50px;
+}
+
+th {
+    border: 1px solid black;
+    margin: 30px;
+    width: 480px;
+    height: 100px;
+}
+
+#th1 {
+    color: red;
+}
+
+#th2 {
+    background-color: yellow;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.nameP {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#nameText {
+    margin-left: 55px;
+}
+
+#input1 {
+    border: 1px dashed;
+    margin-left: 100px;
+    height: 35px;
+    width: 300px;
+    padding: 5px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;  
+}
+
+#loginBTN {
+    border: 1px solid black;
+    width: 130px;
+    height: 40px;
+    float: right;
+}
+
+#printDiv {
+    font-family: "myfont";
+    font-size: 200px;
+    text-align: center;
+    margin: 0px 1em auto;
+    margin-top: 50px;
+}
+
